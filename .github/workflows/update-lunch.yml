@@ -1,0 +1,149 @@
+name: Update Emma Lunch Calendar
+
+on:
+  schedule:
+    - cron: "0 12 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate calendar
+        run: |
+          python - <<'PY'
+          import json
+          import urllib.request
+          from datetime import date, timedelta
+
+          DISTRICT = "marsareasd"
+          SCHOOL = "mars-area-elem"
+          MENU_TYPE = "lunch"
+          DAYS_AHEAD = 45
+
+          def escape_ics(text):
+              return (
+                  text.replace("\\", "\\\\")
+                      .replace(",", "\\,")
+                      .replace(";", "\\;")
+                      .replace("\n", "\\n")
+              )
+
+          today = date.today()
+          end_date = today + timedelta(days=DAYS_AHEAD)
+
+          all_days = {}
+
+          current = today
+          while current <= end_date:
+              url = (
+                  f"https://{DISTRICT}.api.nutrislice.com/menu/api/weeks/"
+                  f"school/{SCHOOL}/menu-type/{MENU_TYPE}/"
+                  f"{current.year}/{current.month:02d}/{current.day:02d}/"
+              )
+
+              try:
+                  with urllib.request.urlopen(url, timeout=20) as response:
+                      data = json.loads(response.read().decode("utf-8"))
+
+                  for day in data.get("days", []):
+                      day_date = day.get("date")
+                      if not day_date:
+                          continue
+
+                      d = date.fromisoformat(day_date)
+                      if not (today <= d <= end_date):
+                          continue
+
+                      entrees = []
+                      fallback = []
+
+                      for item in day.get("menu_items", []):
+                          food = item.get("food")
+                          if not food:
+                              continue
+
+                          name = food.get("name")
+                          if not name:
+                              continue
+
+                          fallback.append(name)
+
+                          category = (
+                              food.get("food_category")
+                              or item.get("category")
+                              or ""
+                          )
+
+                          if isinstance(category, dict):
+                              category = category.get("name", "")
+
+                          if "entree" in str(category).lower():
+                              entrees.append(name)
+
+                      choices = entrees if entrees else fallback
+
+                      if choices:
+                          all_days[day_date] = list(dict.fromkeys(choices))
+
+              except Exception as e:
+                  print(f"Could not load {current}: {e}")
+
+              current += timedelta(days=7)
+
+          lines = [
+              "BEGIN:VCALENDAR",
+              "VERSION:2.0",
+              "PRODID:-//Emma School Lunch//EN",
+              "CALSCALE:GREGORIAN",
+              "X-WR-CALNAME:Emma's School Lunch",
+          ]
+
+          for day_date in sorted(all_days):
+              d = date.fromisoformat(day_date)
+              next_day = d + timedelta(days=1)
+              choices = all_days[day_date]
+
+              title = "Lunch: " + " / ".join(choices)
+              description = "Emma's lunch choices:\\n" + "\\n".join(
+                  f"• {item}" for item in choices
+              )
+
+              lines.extend([
+                  "BEGIN:VEVENT",
+                  f"UID:emma-lunch-{day_date}@marsareasd",
+                  f"DTSTART;VALUE=DATE:{d.strftime('%Y%m%d')}",
+                  f"DTEND;VALUE=DATE:{next_day.strftime('%Y%m%d')}",
+                  f"SUMMARY:{escape_ics(title)}",
+                  f"DESCRIPTION:{escape_ics(description)}",
+                  "END:VEVENT",
+              ])
+
+          lines.append("END:VCALENDAR")
+
+          with open("emma-lunch.ics", "w", encoding="utf-8", newline="\r\n") as f:
+              f.write("\r\n".join(lines) + "\r\n")
+
+          print(f"Created {len(all_days)} lunch events.")
+          PY
+
+      - name: Commit updated calendar
+        run: |
+          git config user.name "Emma Lunch Bot"
+          git config user.email "actions@github.com"
+          git add emma-lunch.ics
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Emma lunch calendar"
+          git push
