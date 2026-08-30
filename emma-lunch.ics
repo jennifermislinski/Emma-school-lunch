@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Emma School Lunch//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Emma's School Lunch
+BEGIN:VEVENT
+UID:emma-lunch-2026-08-31@marsareasd
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:Lunch: Chicken Nuggets / Pancakes & Sausage Patties / Fruit & Yogurt Parfait with Granola and Belly Bears / Ham & Cheese Sandwich
+DESCRIPTION:Emma's lunch choices:\\n• Chicken Nuggets\\n• Pancakes & Sausage Patties\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Ham & Cheese Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-01@marsareasd
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Lunch: Cheesy Chicken Nachos w/ Fresh Bread / Grilled Hot Dog / Nacho Munchable / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Cheesy Chicken Nachos w/ Fresh Bread\\n• Grilled Hot Dog\\n• Nacho Munchable\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-02@marsareasd
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Lunch: Bosco Sticks w/Dipping Sauce / Corn Dog Nuggets / Fruit & Yogurt Parfait with Granola and Belly Bears / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Bosco Sticks w/Dipping Sauce\\n• Corn Dog Nuggets\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-03@marsareasd
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Lunch: Cheeseburger on a Bun / Crispy Chicken Nuggets w/ Buttered Noodles / Lunch Munchable Build Your Own Pizza w/Flat Bread / Turkey & Cheese Sandwich
+DESCRIPTION:Emma's lunch choices:\\n• Cheeseburger on a Bun\\n• Crispy Chicken Nuggets w/ Buttered Noodles\\n• Lunch Munchable Build Your Own Pizza w/Flat Bread\\n• Turkey & Cheese Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-04@marsareasd
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Lunch: Crispy Chicken Patty Sandwich / Cheese Pizza / Lunch Munchable (Filled Grape Crescent\, Yogurt & Carrots) / Wow Butter and Jelly Sandwich
+DESCRIPTION:Emma's lunch choices:\\n• Crispy Chicken Patty Sandwich\\n• Cheese Pizza\\n• Lunch Munchable (Filled Grape Crescent\, Yogurt & Carrots)\\n• Wow Butter and Jelly Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-08@marsareasd
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Lunch: Walking Taco with Beef\, Cheese\, Nacho Doritos & Fresh Bread / Grilled Hot Dog / Nacho Munchable / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Walking Taco with Beef\, Cheese\, Nacho Doritos & Fresh Bread\\n• Grilled Hot Dog\\n• Nacho Munchable\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-09@marsareasd
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Lunch: Popcorn Chicken Bowl w/ Fresh Bread / Corn Dog / Lunch Munchable Turkey and Cheese w/ Crackers / Veggie Wrap
+DESCRIPTION:Emma's lunch choices:\\n• Popcorn Chicken Bowl w/ Fresh Bread\\n• Corn Dog\\n• Lunch Munchable Turkey and Cheese w/ Crackers\\n• Veggie Wrap
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-10@marsareasd
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Lunch: BBQ Rib on Bun / Macaroni and Cheese w/ Garlic Toast / Fruit & Yogurt Parfait with Granola and Belly Bears / Turkey and Cheese Hoagie
+DESCRIPTION:Emma's lunch choices:\\n• BBQ Rib on Bun\\n• Macaroni and Cheese w/ Garlic Toast\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Turkey and Cheese Hoagie
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-11@marsareasd
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Lunch: Pepperoni Pizza / Crispy Chicken Patty Sandwich / Fruit & Yogurt Parfait with Granola and Belly Bears / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Pepperoni Pizza\\n• Crispy Chicken Patty Sandwich\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-14@marsareasd
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Lunch: French Toast Sticks w/ 2 Sausage Patties / Mars Popcorn Chicken w/Bread / Fruit & Yogurt Parfait with Granola and Belly Bears / Grilled Chicken & Cheese Wrap
+DESCRIPTION:Emma's lunch choices:\\n• French Toast Sticks w/ 2 Sausage Patties\\n• Mars Popcorn Chicken w/Bread\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Grilled Chicken & Cheese Wrap
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-15@marsareasd
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Lunch: Chicken & Cheese Soft Tacos / Grilled Hot Dog / Nacho Munchable / Garden Salad w/ Popcorn Chicken & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Chicken & Cheese Soft Tacos\\n• Grilled Hot Dog\\n• Nacho Munchable\\n• Garden Salad w/ Popcorn Chicken & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-16@marsareasd
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Lunch: Corn Dog Nuggets / Cheesy Chicken Meatball Flatbread / Fruit & Yogurt Parfait with Granola and Belly Bears / Turkey and Cheese Hoagie
+DESCRIPTION:Emma's lunch choices:\\n• Corn Dog Nuggets\\n• Cheesy Chicken Meatball Flatbread\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Turkey and Cheese Hoagie
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-17@marsareasd
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Lunch: Cheeseburger on a Bun / Crispy Chicken Nuggets w/ Buttered Noodles / Lunch Munchable Build Your Own Pizza w/Flat Bread / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Cheeseburger on a Bun\\n• Crispy Chicken Nuggets w/ Buttered Noodles\\n• Lunch Munchable Build Your Own Pizza w/Flat Bread\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-18@marsareasd
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Lunch: BBQ Grilled Chicken Sandwich / Freshly Baked Italian Dunkers / Fruit & Yogurt Parfait with Granola and Belly Bears / Sandwich\, Ham and Cheese Sandwich\, MMA\, WG
+DESCRIPTION:Emma's lunch choices:\\n• BBQ Grilled Chicken Sandwich\\n• Freshly Baked Italian Dunkers\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Sandwich\, Ham and Cheese Sandwich\, MMA\, WG
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-21@marsareasd
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Lunch: Chicken and Waffles / Mars Popcorn Chicken w/Bread / Fruit & Yogurt Parfait with Granola and Belly Bears / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Chicken and Waffles\\n• Mars Popcorn Chicken w/Bread\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-22@marsareasd
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Lunch: Cheesy Beef Nachos w/ Fresh Bread / Grilled Hot Dog / Nacho Munchable / Sandwich\, Ham and Cheese Sandwich\, MMA\, WG
+DESCRIPTION:Emma's lunch choices:\\n• Cheesy Beef Nachos w/ Fresh Bread\\n• Grilled Hot Dog\\n• Nacho Munchable\\n• Sandwich\, Ham and Cheese Sandwich\, MMA\, WG
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-23@marsareasd
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Lunch: Meatball Hoagie / Corn Dog / Fruit & Yogurt Parfait with Granola and Belly Bears / Turkey & Cheese Ciabatta
+DESCRIPTION:Emma's lunch choices:\\n• Meatball Hoagie\\n• Corn Dog\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Turkey & Cheese Ciabatta
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-24@marsareasd
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Lunch: Bacon Cheeseburger on a Bun / Chicken & Broccoli Alfredo w/Fresh Bread / Lunch Munchable Build Your Own Pizza w/Flat Bread / Chef Salad w/Turkey\, Ham & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Bacon Cheeseburger on a Bun\\n• Chicken & Broccoli Alfredo w/Fresh Bread\\n• Lunch Munchable Build Your Own Pizza w/Flat Bread\\n• Chef Salad w/Turkey\, Ham & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-25@marsareasd
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Lunch: Spicy Chicken Patty on a Bun / Cheese Pizza / Fruit & Yogurt Parfait with Granola and Belly Bears / Italian Hoagie
+DESCRIPTION:Emma's lunch choices:\\n• Spicy Chicken Patty on a Bun\\n• Cheese Pizza\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Italian Hoagie
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-28@marsareasd
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Lunch: Scrambled Egg Breakfast Bowl TNG - 25/26 / Mars Popcorn Chicken w/Bread / Fruit & Yogurt Parfait with Granola and Belly Bears / Ham & Cheese Sandwich
+DESCRIPTION:Emma's lunch choices:\\n• Scrambled Egg Breakfast Bowl TNG - 25/26\\n• Mars Popcorn Chicken w/Bread\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Ham & Cheese Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-29@marsareasd
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Lunch: Walking Taco w/Chicken\, Cheese and Fresh Bread / Grilled Hot Dog / Nacho Munchable / Garden Salad w/ Popcorn Chicken & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Walking Taco w/Chicken\, Cheese and Fresh Bread\\n• Grilled Hot Dog\\n• Nacho Munchable\\n• Garden Salad w/ Popcorn Chicken & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-09-30@marsareasd
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Lunch: Boneless Wings w/ Garlic Toast / Corn Dog Nuggets / Fruit & Yogurt Parfait with Granola and Belly Bears / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Boneless Wings w/ Garlic Toast\\n• Corn Dog Nuggets\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-10-01@marsareasd
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Lunch: Chicken Meatballs & Penne Pasta w/Fresh Bread / Cheeseburger on a Bun / Lunch Munchable Build Your Own Pizza w/Flat Bread / Turkey & Cheese Sandwich
+DESCRIPTION:Emma's lunch choices:\\n• Chicken Meatballs & Penne Pasta w/Fresh Bread\\n• Cheeseburger on a Bun\\n• Lunch Munchable Build Your Own Pizza w/Flat Bread\\n• Turkey & Cheese Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-10-02@marsareasd
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Lunch: Pepperoni Pizza / Crispy Chicken Patty Sandwich / Lunch Munchable (Filled Grape Crescent\, Yogurt & Carrots) / Wow Butter and Jelly Sandwich
+DESCRIPTION:Emma's lunch choices:\\n• Pepperoni Pizza\\n• Crispy Chicken Patty Sandwich\\n• Lunch Munchable (Filled Grape Crescent\, Yogurt & Carrots)\\n• Wow Butter and Jelly Sandwich
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-10-05@marsareasd
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Lunch: Mars Popcorn Chicken w/Bread / Waffles & Sausage Patties / Fruit & Yogurt Parfait with Granola and Belly Bears / Italian Hoagie
+DESCRIPTION:Emma's lunch choices:\\n• Mars Popcorn Chicken w/Bread\\n• Waffles & Sausage Patties\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Italian Hoagie
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-10-06@marsareasd
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Lunch: Grilled Hot Dog / Cheese Quesadilla w/ Salsa / Nacho Munchable / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Grilled Hot Dog\\n• Cheese Quesadilla w/ Salsa\\n• Nacho Munchable\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-10-07@marsareasd
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Lunch: Burrito Bowl Pork / Corn Dog / Lunch Munchable Turkey and Cheese w/ Crackers / Veggie Wrap
+DESCRIPTION:Emma's lunch choices:\\n• Burrito Bowl Pork\\n• Corn Dog\\n• Lunch Munchable Turkey and Cheese w/ Crackers\\n• Veggie Wrap
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-10-08@marsareasd
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Lunch: BBQ Rib on Bun / Crispy Chicken Nuggets w/ Buttered Noodles / Fruit & Yogurt Parfait with Granola and Belly Bears / Turkey and Cheese Hoagie
+DESCRIPTION:Emma's lunch choices:\\n• BBQ Rib on Bun\\n• Crispy Chicken Nuggets w/ Buttered Noodles\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Turkey and Cheese Hoagie
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-lunch-2026-10-09@marsareasd
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Lunch: Meatball Hoagie / Freshly Baked Italian Dunkers / Fruit & Yogurt Parfait with Granola and Belly Bears / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Meatball Hoagie\\n• Freshly Baked Italian Dunkers\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+END:VEVENT
+END:VCALENDAR
