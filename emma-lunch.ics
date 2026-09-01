@@ -4,25 +4,18 @@ PRODID:-//Emma School Lunch//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Emma's School Lunch
 BEGIN:VEVENT
-UID:emma-lunch-2026-08-31@marsareasd
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260901
-SUMMARY:Lunch: Chicken Nuggets / Pancakes & Sausage Patties / Fruit & Yogurt Parfait with Granola and Belly Bears / Ham & Cheese Sandwich
-DESCRIPTION:Emma's lunch choices:\\n• Chicken Nuggets\\n• Pancakes & Sausage Patties\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Ham & Cheese Sandwich
-END:VEVENT
-BEGIN:VEVENT
 UID:emma-lunch-2026-09-01@marsareasd
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
-SUMMARY:Lunch: Cheesy Chicken Nachos w/ Fresh Bread / Grilled Hot Dog / Nacho Munchable / Garden Salad w/ Egg\, Cheese & Fresh Bread
-DESCRIPTION:Emma's lunch choices:\\n• Cheesy Chicken Nachos w/ Fresh Bread\\n• Grilled Hot Dog\\n• Nacho Munchable\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+SUMMARY:Lunch: Grilled Hot Dog / Cheesy Chicken Nachos w/ Fresh Bread / Nacho Munchable / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Grilled Hot Dog\\n• Cheesy Chicken Nachos w/ Fresh Bread\\n• Nacho Munchable\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
 END:VEVENT
 BEGIN:VEVENT
 UID:emma-lunch-2026-09-02@marsareasd
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
-SUMMARY:Lunch: Bosco Sticks w/Dipping Sauce / Corn Dog Nuggets / Fruit & Yogurt Parfait with Granola and Belly Bears / Garden Salad w/ Egg\, Cheese & Fresh Bread
-DESCRIPTION:Emma's lunch choices:\\n• Bosco Sticks w/Dipping Sauce\\n• Corn Dog Nuggets\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
+SUMMARY:Lunch: Corn Dog Nuggets / Bosco Sticks w/Dipping Sauce / Fruit & Yogurt Parfait with Granola and Belly Bears / Garden Salad w/ Egg\, Cheese & Fresh Bread
+DESCRIPTION:Emma's lunch choices:\\n• Corn Dog Nuggets\\n• Bosco Sticks w/Dipping Sauce\\n• Fruit & Yogurt Parfait with Granola and Belly Bears\\n• Garden Salad w/ Egg\, Cheese & Fresh Bread
 END:VEVENT
 BEGIN:VEVENT
 UID:emma-lunch-2026-09-03@marsareasd
